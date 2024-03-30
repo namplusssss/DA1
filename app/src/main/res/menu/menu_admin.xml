@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_giay"
+        android:title="Quản lý giày"/>
+
+    <item android:id="@+id/nav_donHang"
+        android:title="Quản lý đơn hàng"/>
+
+    <item android:id="@+id/nav_LoaiGiay"
+        android:title="Quản lý loại giày"/>
+
+    <item android:id="@+id/nav_DoanhThu"
+        android:title="Doanh thu"/>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Người dùng">
+            <menu>
+                <item android:id="@+id/nav_DangXuat"
+                    android:icon="@drawable/logout"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
